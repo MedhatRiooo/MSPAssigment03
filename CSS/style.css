@@ -1,0 +1,120 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.introduction {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.introduction img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.destination {
+    width: 48%;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.destination-table {
+    margin: 20px 0;
+}
+
+.destination-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.destination-table th, .destination-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.destination-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.destination-table th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+}
+
+.contact {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 20px auto;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 10px;
+}
+
+.contact input, .contact textarea {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Attribute Selectors */
+input[type="text"] {
+    background-color: #e0f7fa;
+}
+
+input[type="email"] {
+    background-color: #fce4ec;
+}
+
+a[target="_blank"] {
+    color: red;
+}
+
+img[alt="Beach"] {
+    border: 2px solid blue;
+}
+
+img[alt="Mountain"] {
+    border: 2px solid green;
+}
